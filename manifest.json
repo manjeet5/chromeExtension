@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "instagrrr",
+	"version": "1.0",
+	"description":" people die off cuteness or funniness",
+	"content_scripts":[
+		{
+			"matches":["https://*.instagram.com/*"],
+			"js":["main.js"]
+		}
+	]
+}
